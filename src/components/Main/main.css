@@ -1,0 +1,9 @@
+.mainDisplay {
+    display: flex;
+    justify-content: flex-start;
+    height: 40vh;
+}
+.homepic {
+    display: flex;
+    width: 66vw;
+}

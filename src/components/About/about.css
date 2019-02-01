@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    flex-direction: row;
+}
+.mid {
+    display: flex;
+    width: 65.2vw;
+    height: 25vh;
+    margin-top: 1vh;
+}
+.au {
+    display: flex;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.aboutCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}

@@ -1,0 +1,46 @@
+.navCont {
+    display: flex;
+    background-color: black;
+    height: 4vh;
+}
+.navLeft {
+    width: 17vw;
+    height: 4vh;
+    background-color: black;
+}
+.navLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 66vw;
+    list-style: none;
+    height: 4vh;
+    font-size: 11px;
+    background-color: black;
+    color: #F7CB5B;
+}
+.navRight {
+    display: flex;
+    width: 17vw;
+    height: 4vh;
+    background-color: black;
+}
+.links {
+    background-color: black;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #C52127;
+}
+a:visited {
+    color: #C52127;
+}
+a:hover {
+    background-color: #F7CB5B;
+}
+a:active {
+    background-color: #F7CB5B;
+}

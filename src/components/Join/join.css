@@ -1,0 +1,49 @@
+.join {
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 66vw;
+
+}
+.map {
+    width: 80vw;
+    height: 30vh;
+    margin-top: 1vh;
+}
+.midCont {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    height: 5vh;
+}
+.cTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+.directions {
+    color: #C52127;
+    font-size: 12px;
+    margin-top: 1vh;
+}
+.midSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.words {
+    width: 37vw;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.address2 {
+    font-size: 10px;
+}

@@ -1,12 +1,14 @@
 import React from 'react'
-import '/header.css'
-import DCC_Header from '../images/DCC_Header.png'
+import './header.css'
+import header from '../../images/headPic.png'
 
 export default function Header() {
 
     return (
-        <div>
-            <img src={DCC_Header} className='headerMain'/>
+        <div className='headCont'>
+            <div className='headLeft'></div>
+            <img src={header} className='headerMain'/>
+            <div className='headRight'></div>
         </div>
     )
 }
