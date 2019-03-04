@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./navbar.css";
+import logo from '../../images/DCCLogo.png'
 import { Link } from "react-router-dom";
 import note1 from "../../images/music-note.png";
 import note2 from "../../images/musical-note.png";
@@ -27,7 +28,7 @@ export default class NavBar extends Component {
 
     function timer() {
       num++;
-      if (num <= 5) {
+      if (num <= 10) {
         this.setState({
           number: num
         });
@@ -57,12 +58,30 @@ export default class NavBar extends Component {
       case 5:
         dispNote = <img src={note1} alt="" className="position5" />;
         break;
+      case 6:
+        dispNote = <img src={note2} alt="" className="position6" />;
+        break;
+      case 7:
+        dispNote = <img src={note1} alt="" className="position7" />;
+        break;
+      case 8:
+        dispNote = <img src={note2} alt="" className="position8" />;
+        break;
+      case 9:
+        dispNote = <img src={note1} alt="" className="position9" />;
+        break;
+      case 10:
+        dispNote = <img src={note1} alt="" className="position10" />;
+        break;
       default:
         dispNote = <img src={note1} alt="" className="position1" />;
     }
 
     return (
       <div className="navCont">
+        <div className='logo'>
+          <img src={logo} className='logo-pic'/>
+        </div>
         <div className="navLinks">
           <Link to="/" className="links">
             <p>Home</p>
