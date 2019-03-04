@@ -1,9 +1,91 @@
-.mainDisplay {
-    display: flex;
-    justify-content: flex-start;
-    height: 40vh;
+.main-display {
+  display: flex;
+  justify-content: flex-start;
+  height: 60vh;
+  padding-top: 8vh;
 }
+
 .homepic {
-    display: flex;
-    width: 66vw;
+  display: flex;
+  width: 100%;
+}
+
+.color {
+  background: #401222;
+  color: #333333;
+  color: #da9c5d;
+}
+
+.overlay {
+  position: absolute;
+  top: 8vh;
+  opacity: 0.7;
+  background-color: black;
+  height: 60vh;
+  width: 100%;
+}
+
+.home-text {
+  position: absolute;
+  font-size: 28px;
+  top: 1vh;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.home-text h1 {
+  margin: 5%;
+}
+
+.home-text button {
+  width: 22%;
+  height: 10%;
+  background-color: transparent;
+  font-size: 22px;
+  color: white;
+  transition: 0.5s;
+}
+
+.home-text button:hover {
+  color: #da9c5d;
+  cursor: pointer;
+}
+
+.banner {
+  height: 8vh;
+  background-color: #da9c5d;
+}
+
+.main-content {
+  max-width: 100%;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-about {
+  margin: auto;
+  text-align: center;
+  max-width: 50%;
+}
+
+.main-about p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.main-sidebar {
+  border-left: solid 1px lightgray;
+  width: 35%;
+  text-align: center;
+}
+
+* button:focus {
+  outline: none;
 }
