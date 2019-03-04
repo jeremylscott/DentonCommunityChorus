@@ -1,46 +1,78 @@
 .navCont {
-    display: flex;
-    background-color: black;
-    height: 4vh;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 8vh;
 }
-.navLeft {
-    width: 17vw;
-    height: 4vh;
-    background-color: black;
-}
+
 .navLinks {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 66vw;
-    list-style: none;
-    height: 4vh;
-    font-size: 11px;
-    background-color: black;
-    color: #F7CB5B;
+  position: fixed;
+  z-index: 2;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 66vw;
+  margin: auto;
+  list-style: none;
+  height: 4vh;
+  font-size: 11px;
+  color: #f7cb5b;
 }
-.navRight {
-    display: flex;
-    width: 17vw;
-    height: 4vh;
-    background-color: black;
-}
+
 .links {
-    background-color: black;
-    font-weight: bold;
+  font-size: 18px;
+  color: rgb(218, 156, 93);
+  text-decoration: none;
 }
-a {
-    text-decoration: none;
+
+.music {
+  height: 8vh;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.1;
 }
-a:link {
-    color: #C52127;
+
+.position1 {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  top: 5%;
 }
-a:visited {
-    color: #C52127;
+
+.position2 {
+  position: absolute;
+  z-index: 1;
+  left: 25%;
+  bottom: 5%;
 }
-a:hover {
-    background-color: #F7CB5B;
+
+.position3 {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 5%;
 }
-a:active {
-    background-color: #F7CB5B;
+
+.position4 {
+  position: absolute;
+  z-index: 1;
+  right: 25%;
+  bottom: 5%;
+}
+
+.position5 {
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  top: 5%;
 }
