@@ -1,6 +1,7 @@
 .join {
     display: flex;
     flex-direction: row;
+    margin-left: 15vw;
 }
 .content {
     display: flex;
@@ -10,9 +11,11 @@
 
 }
 .map {
-    width: 80vw;
-    height: 30vh;
+    width: 70vw;
+    height: 45vh;
     margin-top: 1vh;
+    margin-left: 7.5vw;
+    border-radius: 5px;
 }
 .midCont {
     display: flex;
@@ -22,28 +25,38 @@
     height: 5vh;
 }
 .cTitle {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
+    margin-left: 17vw;
+    margin-top: 1vh;
 }
 .directions {
     color: #C52127;
-    font-size: 12px;
+    font-size: 20px;
     margin-top: 1vh;
+    text-decoration: none;
+    margin-right: 1vw;
 }
 .midSec {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
 }
 .words {
-    width: 37vw;
+    width: 60vw;
+    margin-left: 12.5vw;
+    margin-top: 2vh;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.7em;
 }
 .address {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
+    margin-left: 18vw;
 }
 .address2 {
-    font-size: 10px;
+    font-size: 20px;
 }
