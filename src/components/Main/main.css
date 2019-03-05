@@ -57,7 +57,7 @@
   font-size: 22px;
   color: white;
   transition: 0.5s;
-  margin-bottom: 4vh;
+  margin-bottom: 12vh;
   margin-left: 16vw;
   border-radius: 5px;
 }
@@ -68,7 +68,7 @@
 }
 
 .banner {
-  height: 6vh;
+  height: 2vh;
   /* background-color: #da9c5d; */
   background-color: #c61616;
 }

@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../Header/Header";
 import NavBar from "../NavBar/NavBar";
 import "./about.css";
+import postoakdrive from '../../images/PostOakDrive.png'
 
 export default function About() {
   return (
     <div>
-      <Header />
       <NavBar />
       <div className="about">
         <div className="aboutCont">
           <span className="au">About Us</span>
+          <img src={postoakdrive} className='church-pic'/>
           <p className="mid">
             Since 1970, the Denton Community Chorus has been striving to present
             quality choral music to the Denton community. The Denton Community
