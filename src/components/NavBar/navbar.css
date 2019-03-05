@@ -21,16 +21,27 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+<<<<<<< HEAD
   margin-top: 18vh;
   align-items: center;
   list-style: none;
   font-size: 1.2em;
+=======
+  margin-top: 20vh;
+  align-items: center;
+  list-style: none;
+  font-size: 11px;
+>>>>>>> master
   /* color: #f7cb5b; */
   color: #c61616
 }
 
 .links {
+<<<<<<< HEAD
   font-size: 1em;
+=======
+  font-size: 18px;
+>>>>>>> master
   /* color: rgb(218, 156, 93); */
   color: #c61616;
   text-decoration: none;
