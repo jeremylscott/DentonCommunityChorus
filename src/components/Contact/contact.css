@@ -33,6 +33,7 @@
     border-radius: 3px;
     font-size: 1.1em;
     padding-left: 2px;
+    border: 2px solid #c61616;
 }
 
 .message-input::placeholder {
