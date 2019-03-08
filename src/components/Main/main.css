@@ -57,11 +57,7 @@
   font-size: 22px;
   color: white;
   transition: 0.5s;
-<<<<<<< HEAD
   margin-bottom: 12vh;
-=======
-  margin-bottom: 4vh;
->>>>>>> master
   margin-left: 16vw;
   border-radius: 5px;
 }
@@ -72,11 +68,7 @@
 }
 
 .banner {
-<<<<<<< HEAD
   height: 2vh;
-=======
-  height: 6vh;
->>>>>>> master
   /* background-color: #da9c5d; */
   background-color: #c61616;
 }
