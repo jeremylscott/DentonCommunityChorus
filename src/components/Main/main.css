@@ -24,7 +24,7 @@
 
 .overlay {
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.4;
   background-color: black;
   height: 45vh;
   width: 85vw;
@@ -86,9 +86,17 @@
   max-width: 50%;
 }
 
+.main-about h1 {
+  text-decoration: underline;
+}
+
 .main-about p {
   font-size: 20px;
   line-height: 1.8;
+}
+
+.main-sidebar h1 {
+  text-decoration: underline;
 }
 
 .main-sidebar {

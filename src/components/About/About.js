@@ -6,7 +6,7 @@ import postoakdrive from '../../images/PostOakDrive.png'
 export default function About() {
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       <div className="about">
         <div className="aboutCont">
           <span className="au">About Us</span>
