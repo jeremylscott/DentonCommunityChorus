@@ -29,10 +29,10 @@ export default function Join() {
               >
                 Directions
               </a>
-            <span className="address2">
-              2550 Post Oak Dr <br />
-              Corinth, TX 76210
-            </span>
+              <span className="address2">
+                2550 Post Oak Dr <br />
+                Corinth, TX 76210
+              </span>
             </div>
           </div>
         </div>
